@@ -122,6 +122,17 @@ header {
 	text-align: center;
 }
 
+.example > img {
+	width: 200px;
+	height: 200px;
+	border: 6px solid #3882F6;
+	border-radius: 20px;
+}
+
+.example > div {
+	max-width: 200px;
+}
+
 .quote-wrapper {
 	background: #E5E7EB;
 	color: #1F2937;
