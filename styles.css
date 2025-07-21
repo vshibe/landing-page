@@ -8,6 +8,7 @@
 
 body {
 	font-family: Roboto, serif;
+	background: #DDD;
 }
 
 body, html {
@@ -24,7 +25,7 @@ img {
 }
 
 button {
-	background: #3882F6;
+	background: #AF4943;
 	color: #F9FAF8;
 	border-radius: 6px;
 	box-sizing: content-box;
@@ -40,7 +41,7 @@ header {
 }
 
 .header-wrapper {
-	background: #1F2937;
+	background: #0E0E0E;
 	color: #F9FAF8;
 	display: flex;
 	flex-direction: column;
@@ -80,7 +81,7 @@ header {
 
 .hero-subtext {
 	font-size: 18px;
-	color: #E5E7EB;
+	color: #BBB8B8;
 }
 
 .hero-button {
@@ -101,7 +102,7 @@ header {
 .example-header {
 	text-align: center;
 	font-size: 36px;
-	color: #1F2937;
+	color: #0E0E0E;
 	font-weight: 900;
 	margin: 36px;
 }
@@ -118,6 +119,7 @@ header {
 .example {
 	display: flex;
 	flex-direction: column;
+	gap: 0.5em;
 	align-items: center;
 	text-align: center;
 }
@@ -125,7 +127,7 @@ header {
 .example > img {
 	width: 200px;
 	height: 200px;
-	border: 6px solid #3882F6;
+	border: 6px solid #AF4943;
 	border-radius: 20px;
 }
 
@@ -134,18 +136,18 @@ header {
 }
 
 .quote-wrapper {
-	background: #E5E7EB;
-	color: #1F2937;
+	background: #BBB8B8;
+	color: #0E0E0E;
 	display: flex;
 	padding: 100px;
 }
 
 #quote-container {
-	background: #E5E7EB;
+	background: #BBB8B8;
 	font-size: 36px;
 	font-style: italic;
 	font-weight: 300;
-	color: #1F2937;
+	color: #0E0E0E;
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
@@ -165,7 +167,7 @@ header {
 	align-items: center;
 	max-width: 980px;
 	width: 100%;
-	background: #3882F6;
+	background: #AF4943;
 	color: #F9FAF8;
 	height: 150px;
 	border-radius: 8px;
@@ -182,7 +184,7 @@ header {
 }
 
 footer {
-	background: #1F2937;
+	background: #0E0E0E;
 	text-align: center;
 	padding: 30px;
 	color: #F9FAF8;
